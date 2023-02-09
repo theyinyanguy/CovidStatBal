@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "wso2sa": {
+      "type": "object",
+      "properties": {
+        "covidstat": {
+          "type": "object",
+          "properties": {
+            "country": {
+              "type": "string",
+              "description": ""
+            },
+            "emailAddress": {
+              "type": "string",
+              "description": ""
+            }
+          },
+          "additionalProperties": false,
+          "required": [
+            "country",
+            "emailAddress"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

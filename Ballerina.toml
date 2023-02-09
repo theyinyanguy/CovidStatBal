@@ -1,0 +1,12 @@
+[build-options]
+  observabilityIncluded = true
+
+[package]
+  distribution = "2201.3.1"
+  export = ["covidstat"]
+  icon = "docs/icon.png"
+  keywords = ["Kind/Sample","Type/ManualTrigger","Category/Integration"]
+  name = "covidstat"
+  org = "wso2sa"
+  version = "3.1.0"
+
